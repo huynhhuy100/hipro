@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chào pr0</title>
+</head>
+
+<body>
+    <div class="div1" ; style="text-align: center;">
+        <img src="sad1.jpg" alt="Flowers in Chania"> </br>
+
+        <p><button onclick="myFunction()" id="myDIV">Pro thật là cố chấp</button></p>
+
+
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myDIV");
+            if (x.innerHTML === "Pro thật là cố chấp") {
+                x.innerHTML = "Pro thật sự muốn bỏ tôi à?";
+            } else if(x.innerHTML === "Pro thật sự muốn bỏ tôi à?") {
+                x.innerHTML = "Nếu pro đã quyết định vậy thì";
+            } else if(x.innerHTML === "Nếu pro đã quyết định vậy thì") {
+                x.innerHTML = "Chúc pro sẽ có quyết định đúng đắng";
+            } else if(x.innerHTML === "Chúc pro sẽ có quyết định đúng đắng") {
+                x.innerHTML = "Good Luck";
+            } else if(x.innerHTML === "Good Luck") {
+                x.innerHTML = "Nói tới vậy !! mà vẫn đi à?";
+            }
+            else if(x.innerHTML === "Nói tới vậy !! mà vẫn đi à?") {
+                x.innerHTML = "Tạm biệt pro";
+            }else if(x.innerHTML === "Tạm biệt pro") {
+                x.innerHTML = "lần cuối,,,";
+            } else{
+                window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+            }
+        }
+    </script>
+</body>
+
+</html>
